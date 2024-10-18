@@ -1,0 +1,54 @@
+:root{
+    --cor-titulo: #FFFFFF;
+    --cor-titulosecundario: #bd01ff;
+    --cor-fundo: #350041;
+    --cor-efeito: #f1f2f2;
+    --cor-fundo2: #10051a;
+    --fonte-principal: 'RussoOne';
+}
+
+body{
+    background-color: var(--cor-titulosecundario);
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: var(--cor-titulo);
+}
+
+body{
+    color: var(--cor-titulo);
+}
+
+.principal{
+    background-image: url("Img/Screenshot\ 2024-09-30\ 07.47.46.png");
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img1{
+    width: 175px;
+    height: 175px;
+}
+
+.container__botao{
+    background-color: var(--cor-titulosecundario);
+    border-radius: 5px;
+    padding: 1em;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
